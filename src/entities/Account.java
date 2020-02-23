@@ -7,10 +7,10 @@ public class Account {
 	private double balance;
 	
 	//USED WHEN THE CUSTOMER WANTS TO MAKE AN INITIAL DEPOSIT.
-	public Account(int number, String holder, double balance) {
+	public Account(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;
-		this.balance = balance;
+		deposit(initialDeposit);
 	}
 
 	//USED WHEN THE CUSTOMER DOES NOT WISH TO MAKE AN INITIAL DEPOSIT.
