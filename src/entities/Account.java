@@ -46,6 +46,13 @@ public class Account {
 		this.balance -= (amount + 5.0);
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Account [Number: " + number + ", Holder: " + holder + ", Balance: $" + balance + "]";
+	}
+	
+	
 	
 	
 	
