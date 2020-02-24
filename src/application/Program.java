@@ -18,7 +18,7 @@ public class Program {
 		String holder = sc.nextLine();
 
 		System.out.print("Is there na initial deposit?");
-		int number = sc.nextInt();
+		char response = sc.next().charAt(0);
 		
 		
 		
